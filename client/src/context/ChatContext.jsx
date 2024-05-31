@@ -22,7 +22,7 @@ export const ChatContextProvider = ({ children, user }) => {
 
   console.log("Online User chat context : ", onlineUsers);
   useEffect(() => {
-    const newSocket = io("http://localhost:5001/");
+    const newSocket = io("https://chatapp-server-b4ri.onrender.com:5001/");
     setSocket(newSocket);
 
     return () => {

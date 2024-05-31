@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:5001/api";
+export const BASE_URL = "https://chatapp-server-b4ri.onrender.com/api";
 
 export const postRequest = async (url, body) => {
     const response = await fetch(url, {
